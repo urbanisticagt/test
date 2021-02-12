@@ -28,6 +28,9 @@
 /* level 1 */
 .welcomeMsj{
     display: block; /*switch*/
+    width:80%;
+    margin:0 auto;
+   
     
 
 }
