@@ -28,7 +28,7 @@
 /* level 1 */
 .welcomeMsj{
     display: block; /*switch*/
-    width:80%;
+    width:100%;
     margin:0 auto;
    
     
@@ -78,6 +78,7 @@
 
 .finalMsj{
     display: none;
+    margin:0 auto;
 
 }
 
