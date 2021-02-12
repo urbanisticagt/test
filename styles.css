@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+   
+}
+
+
+.symptom{
+    background: rgba(151,215,0,1);
+    height:100vh;
+    
+}
+
+.containerSymptom{
+    display: grid;
+    text-align: center;
+    color: rgba(16,6,159,1);
+    padding: 3rem; 
+    align-items: center;
+    height:100vh;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* level 1 */
+.welcomeMsj{
+    display: block; /*switch*/
+    
+
+}
+.buttonSymptom{
+    padding: 1rem;
+    background: rgb(255,255,255);
+    
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    padding: 14px 48px;
+    color:rgba(151,215,0,1);
+    cursor: pointer;
+    outline:none;
+    margin: 1rem;
+    transition: 0.3s;
+}
+.buttonSymptom:hover{
+    background: rgba(16,6,159,1) ;
+
+}
+/* level 2 */
+.questionSeries{
+    display:none; /*switch*/
+    width:80%;
+    margin:0 auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 500px;
+}
+.questionLeftSide{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    align-items: center;
+}
+.introAnimation{
+    animation: startIntro 1s linear;
+}
+.imgSymptom{
+    width:60%;
+}
+.topSectionQuestion{
+    /*border-bottom: solid 2px white;*/
+    height:100%;
+}
+
+.finalMsj{
+    display: none;
+
+}
+
+.imgFinal{
+    display: none;
+    max-width: 20rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+
+
+/*estilosDeParrafo*/
+
+ /*msjInit*/
+.textSymptom1{
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    font-weight: 800;
+    font-size:2rem;
+    padding: 3rem;
+
+}
+
+ /*questions*/
+.textSymptom2{
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    font-weight: 500;
+    font-size: 2rem;
+
+}
+
+ /*msjFinal*/
+.textSymptom3{
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    font-weight: 500;
+    font-size: 2rem;
+    color: white;
+    padding: 2rem;
+
+}
+
+.textSymptomButton{
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px;
+
+}
+
+.marcador{
+    color:white;
+    font-size: 0.5rem;
+    
+}
+.svgMapa{
+    width:90%;
+    display:none;
+    margin: 0 auto;
+    max-height: 50vh;
+}
+
+.centrosBienestarRespiratorio{
+    color:rgba(16,6,159,1);
+    display: none;
+    
+
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 1rem;
+    gap:2rem;
+    list-style: none;
+}
+
+.individualCBR{
+    font-weight: 800;
+    color:white;
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+
+}
+
+@keyframes startIntro {
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 100%;
+
+
+    }
+}
+
+.svgIcono{
+    width: 15rem;
+    display: none;
+    margin: 3rem auto;
+    /* position: relative; */
+    /* top:25px; */
+    
+
+}
+
+@media screen and (max-width:800px){
+    .questionSeries{
+        display:none; /*switch*/
+        width:80%;
+        margin:0 auto;
+        grid-template-columns: 100%;
+        grid-template-rows: 25% 75%;
+        align-items: end;
+    }
+
+    .questionLeftSide{
+        display: grid;
+        grid-template-rows: 100%;
+        grid-template-rows: 75% 25%;
+        align-items: center;
+    }
+    .centrosBienestarRespiratorio{
+        color:rgba(16,6,159,1);
+        display: none;
+    
+        grid-template-columns: 100%;
+        padding: 1rem;
+        gap:2rem;
+        list-style: none;
+    }
+}
