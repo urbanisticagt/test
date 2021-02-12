@@ -10,7 +10,7 @@
 
 .symptom{
     background: rgba(151,215,0,1);
-    height:100vh;
+    min-height:100vh;
     
 }
 
@@ -20,7 +20,7 @@
     color: rgba(16,6,159,1);
     padding: 3rem; 
     align-items: center;
-    height:100vh;
+    min-height:100vh;
     max-width: 1600px;
     margin: 0 auto;
 }
