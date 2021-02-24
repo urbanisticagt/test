@@ -70,6 +70,8 @@
 }
 .imgSymptom{
     width:60%;
+    margin: 0 auto;
+    max-width: 400px;
 }
 .topSectionQuestion{
     /*border-bottom: solid 2px white;*/
@@ -79,6 +81,13 @@
 .finalMsj{
     display: none;
     margin:0 auto;
+
+}
+.kit{
+    display: none;
+    margin:0 auto;
+    width:80%;
+   
 
 }
 
