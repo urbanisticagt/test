@@ -34,6 +34,14 @@
     
 
 }
+.bold{
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    font-weight: 800;
+    font-size: 1rem;
+    color: white;
+    /* padding: 2rem 0; */
+}
 .buttonSymptom{
     padding: 1rem;
     background: rgb(255,255,255);
