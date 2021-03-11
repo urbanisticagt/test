@@ -72,13 +72,15 @@
     display: grid;
     grid-template-rows: 50% 50%;
     align-items: center;
+    align-content: center;
+
 }
 .introAnimation{
     animation: startIntro 1s linear;
 }
 .imgSymptom{
     width:60%;
-    margin: 0 auto;
+    margin: auto auto;
     max-width: 400px;
 }
 .imgSymptomDecreto{
@@ -88,8 +90,8 @@
     
 }
 .topSectionQuestion{
-    /*border-bottom: solid 2px white;*/
-    height:100%;
+    /*border-bottom: solid 2px white;
+    height:100%;*/
 }
 
 .finalMsj{
