@@ -37,7 +37,7 @@
 .bold{
     font-family: 'Montserrat', sans-serif;
     align-items: center;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 1rem;
     color: white;
     /* padding: 2rem 0; */
@@ -80,6 +80,12 @@
     width:60%;
     margin: 0 auto;
     max-width: 400px;
+}
+.imgSymptomDecreto{
+    width: 40%;
+    max-width: 400px;
+    margin: 0 auto;
+    
 }
 .topSectionQuestion{
     /*border-bottom: solid 2px white;*/
@@ -141,6 +147,18 @@
 
 }
 
+
+.decreto{
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    font-weight: 300;
+    font-size: 1rem;
+    color: white;
+    padding: 2rem 0;
+    display:none;
+
+}
+
 .textSymptomButton{
     font-family: 'Montserrat', sans-serif;
     font-size:20px;
@@ -199,6 +217,7 @@
     
 
 }
+
 
 @media screen and (max-width:800px){
     .questionSeries{

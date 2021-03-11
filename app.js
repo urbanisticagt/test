@@ -6,6 +6,7 @@ const $yesButton = document.querySelector('#yesButton');
 const $noButton = document.querySelector('#noButton');
 const $centrosBienestarRespiratorio = document.querySelector('.centrosBienestarRespiratorio');
 const $svgIcono = document.querySelector('.svgIcono');
+const $decreto= document.querySelector(".decreto");
 
 
 //elementos a reemplazar en el DOM
@@ -57,7 +58,7 @@ function endTest(){
         if(marcador>=91){
             giveAdvice(D,'Urgente realizar hisopado, confirmación de datos y traslado a Cuerpo de Bomberos Municipales','123.svg',false);
         }else if(marcador>=71){
-            giveAdvice(C,'Acude a cualquiera de los Centros de Bienestar Respiratorio por un kit médico*, su prescripción y dosificación se sujeta a la indicación del médico tratante:','tel.svg',true);
+            giveAdvice(C,'Acude a cualquiera de los Centros de Bienestar Respiratorio por un kit médico*:','tel.svg',true);
         }else if(marcador>=16){
             giveAdvice(B,'Si presentas algún síntoma adicional te recomendamos realizar la evaluación nuevamente. Utiliza mascarilla de forma adecuada, lávate las manos con jabón y gel antibacterial y evita salir de casa si no es necesario.','tel.svg',false);
         }else if(marcador>0){
@@ -87,6 +88,7 @@ function giveAdvice(result,advice, image, isMap){
                 $svgMapa.style.display = 'block';
                 $centrosBienestarRespiratorio.style.display = "grid";
                 $kit.style.display="grid";
+                $decreto.style.display="grid";
             }
 
         }else{
