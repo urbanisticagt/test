@@ -84,8 +84,9 @@
     max-width: 400px;
 }
 .imgSymptomDecreto{
-    width: 40%;
-    max-width: 400px;
+    padding-top: 3rem;
+    width: 80vw;
+    max-width: 300px;
     margin: 0 auto;
     
 }
