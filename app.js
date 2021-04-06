@@ -92,12 +92,11 @@ function giveAdvice(result,advice, image, isMap){
             }
 
         }else{
-            $imgFinal.setAttribute('src',`image/${image}`);
-            $imgFinal.onload = ()=>{
-                $imgFinal.style.display = 'block';
+            
+                //$imgFinal.style.display = 'block';
                 $svgIcono.style.display='block';
 
-            }
+        
         }
 
 
