@@ -62,7 +62,7 @@ function endTest(){
         }else if(marcador>=16){
             giveAdvice(B,'Si presentas algún síntoma adicional te recomendamos realizar la evaluación nuevamente. Utiliza mascarilla de forma adecuada, lávate las manos con jabón y gel antibacterial y evita salir de casa si no es necesario.','tel.svg',false);
         }else if(marcador>0){
-            giveAdvice(A,'Informate al:','tel.svg',false);
+            giveAdvice(A,'','tel.svg',false);
         }else{
             giveAdvice('No presentas algún síntoma','Sigue cuidandote, para mayor informacion puedes contactar a los Centros de Bienestar Respiratorio ','tel.svg', false);
         }
